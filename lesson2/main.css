@@ -1,0 +1,215 @@
+h1 {
+    text-align: center;
+    font-family: 'oswald-bold';
+    color: #464547;
+    margin-top: -90px;
+    margin-right: 100px;
+}
+figure{
+    margin:0;
+}
+.mainarticle {
+    font-family: 'oswald-regular', sans-serif;
+    width: 220px;
+    height: 100px;
+    transform: scaleY(1.2);
+    padding-left: 10px;
+}
+.arrow {
+    font-family: 'oswald-regular', sans-serif;
+    font-size: 30px;
+    color: #39C2D7;
+    margin-top: 10px;
+    font-weight: bold;
+    float: left;
+}
+.wrapper {
+    background-color: #FFFFFF;
+    position: relative;
+}
+.logo {
+    font-size: 40px;
+    text-align: center;
+    color: #464547;
+    float: left;
+}
+.city-item {
+    width: 22.8%;
+    float: none;
+    padding: .9%;
+    display: inline-block;
+}
+.cities-link {
+    height: 300px;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    background-size: cover;
+}
+.picture {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    height: inherit;
+    position: relative;
+    overflow: hidden;
+}
+.picture:hover > .infobox {
+    bottom: 20%;
+}
+.infobox {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    bottom: -80%;
+    z-index: 1;
+    transition: bottom .5s;
+    font-family: 'oswald-bold';
+}
+.cities {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.name {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    padding-top: 12px;
+}
+span {
+    font-size: 100px;
+}
+.cities-info {
+    margin-top: 15px;
+    height: 0px;
+    background-color: #F7F7F7;
+    font-family: 'source-sans-pro-regular';
+    color: #000000;
+    border: 0.5px #CCCCCC solid;
+    padding-left: 43px;
+    z-index: 15;
+    position: fixed;
+    visibility: hidden; 
+    transition: height .5s, visibility .6s;
+}
+.cities-info:target {
+    width: 415%;
+    height: 345px;
+    visibility: visible;
+    position: relative;
+    float: right;
+    margin-right: -220%;
+}
+.triangle {
+	position: absolute;
+    left: 36%;
+}
+.triangle_part1 {
+	width: 20px;
+    height: 20px;
+    background-color: #F7F7F7;
+    border: 0.5px #CCCCCC solid;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 5px;
+    top: -5px;
+}
+.triangle_part2 {
+	width: 40px;
+    height: 30px;
+    background-color: #F7F7F7;
+    position: absolute;
+}
+.title {
+    color: #39C2D7;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'oswald-bold';
+}
+.city-title {
+    font-family: 'source-sans-pro-bold';
+    color: #464547;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.office-one {
+    width: 250px;
+    height: 197px;
+    float: left;
+    font-size: 18px;
+    line-height: 22px;
+    color: #464547;
+}
+.office-two {
+    width: 250px;
+    height: 190px;
+    float: left;
+    margin-left: 160px;
+    font-size: 18px;
+    border-left: 1px #CCCCCC solid;
+    padding-left: 33px;
+    line-height: 22px;
+    color: #464547;
+}
+.imagemap {
+	padding-right: 5px;
+}
+
+#openlink {
+    color: white;
+    font-family: 'oswald-bold';
+    text-decoration: none;
+}
+#closelink {
+   width: 13px;
+    height: 22px;
+    background-color: #F7F7F7;
+    font-family: 'source-sans-pro-regular';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+}
+.maplink {
+    color: #7f993a;
+    font-family: 'source-sans-pro-bold';
+    text-decoration: none;
+}
+.maplink:hover {
+    text-decoration: underline;
+}
+.phonelink {
+    text-decoration: underline;
+    font-family: 'source-sans-pro-regular';
+    color: #464547;
+}
+.phonelink:hover {
+    text-decoration: none;
+}
+@font-face {
+    font-family: oswald-regular;
+    src: url(fonts/oswald-regular.ttf);
+}
+@font-face {
+    font-family: oswald-bold;
+    src: url(fonts/oswald-bold.ttf);
+}
+@font-face {
+    font-family: source-sans-pro-bold;
+    src: url(fonts/sourcesanspro-bold.woff);
+}
+@font-face {
+    font-family: source-sans-pro-regular;
+    src: url(fonts/sourcesanspro-regular.woff);
+}
