@@ -1,0 +1,117 @@
+.wrapper {
+    background-color: #0099FF;
+    padding: 1%;
+    height: 620px;
+    width: 1000px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #0099FF;
+}
+.navigation {
+    width: 20%;
+    height: 600px;
+    position: relative;
+    float: left;
+    margin: 1%;
+    border: 2px #fff solid;
+    border-radius: 9px;
+}
+.first-list {
+    position: relative;
+    width: 77%;
+    margin: 0 auto;
+}
+.first-list li {
+    margin-bottom: 4px;
+}
+.second-list {
+    padding-bottom: 48px;
+}
+.second-list li {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+.main-header {
+    width: 74%;
+    margin: 1%;
+    height: 80px;
+    display: inline-block;
+    border: 2px #fff solid;
+    border-radius: 9px;
+}
+.bracket {
+    font-weight: bold;
+    font-size: 14px;
+}
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0;
+}
+li {
+    border: 2px #fff solid;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.main-body {
+    width: 51%;
+    border: 4px #fff dotted;
+    border-radius: 18px;
+    display: inline-block;
+    height: 504px;
+    overflow: hidden;
+}
+.main-figure {
+    width: 90%;
+    border: 2px #fff solid;
+    border-radius: 18px;
+    height: 40%;
+    margin: 2%;
+    padding: 0 14px;
+}
+.info {
+    width: 22%;
+    height: 481px;
+    border: 2px #fff solid;
+    border-radius: 18px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 11px 0;
+    text-align: center;
+}
+.info-wrap {
+    margin-top: 96%;
+}
+.image {
+    float: left;
+    width: 14%;
+    height: 64px;
+    border: 2px #fff solid;
+    border-radius: 9px;
+    margin: 7px 4px;
+}
+article {
+    width: 46%;
+    margin: -7px 2px;
+    border: 2px #fff solid;
+    border-radius: 18px;
+    display: inline-block;
+    height: 41%;
+}
+.main-footer {
+    position: relative;
+    width: 95%;
+    height: 50px;
+    margin: 3% 2%;
+    border: 2px #fff solid;
+    border-radius: 9px;
+}
+.footer-title {
+    margin-top: 11px;
+}
