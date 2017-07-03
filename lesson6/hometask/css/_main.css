@@ -1,0 +1,34 @@
+body {
+  padding: 2px 70px; }
+  body #content {
+    margin: 0 auto;
+    padding: 1px 50px; }
+    body #content .img-left {
+      float: left;
+      margin-right: 15px; }
+    body #content .brief {
+      float: left;
+      font-style: italic;
+      padding: 20px;
+      font-weight: bold;
+      margin-right: 20px; }
+    body #content .img-right {
+      margin-left: 5px;
+      float: right; }
+    body #content table {
+      text-align: left;
+      border-collapse: collapse; }
+      body #content table caption {
+        font-size: 18px;
+        text-align: right;
+        font-style: italic; }
+      body #content table th {
+        height: 50px;
+        padding-left: 15px; }
+      body #content table td {
+        height: 30px;
+        padding-left: 15px; }
+    body #content .clickbutton {
+      background-color: burlywood;
+      color: #fff;
+      text-decoration: none; }

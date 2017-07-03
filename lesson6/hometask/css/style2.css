@@ -1,0 +1,59 @@
+body {
+  background-color: #659a01;
+  padding: 2px 70px;
+  font: normal 15px/20px Georgia, "Times New Roman", Times, serif;
+  color: #fff; }
+  body h1,
+  body h2 {
+    color: #f9d014; }
+  body a {
+    color: #eaca15; }
+  body #content {
+    margin: 0 auto;
+    background-color: #666701;
+    padding: 1px 50px; }
+    body #content h2 {
+      font-style: normal; }
+    body #content .img-left {
+      float: left;
+      border: 1px #fff solid;
+      margin-right: 15px;
+      padding: 10px; }
+    body #content .brief {
+      background-color: #677d01;
+      float: left;
+      height: 30px;
+      width: 96.3%;
+      font-style: italic;
+      padding: 20px;
+      font-weight: bold;
+      margin-right: 20px;
+      margin-bottom: 20px; }
+    body #content .img-right {
+      margin-left: 5px;
+      border: 1px #fff solid;
+      float: right;
+      padding: 10px; }
+    body #content table {
+      width: 99%;
+      background-color: #677d01;
+      text-align: left;
+      border-collapse: collapse; }
+      body #content table caption {
+        font-size: 18px;
+        text-align: right;
+        font-style: italic;
+        margin-right: 0; }
+      body #content table th {
+        background-color: #94a34e;
+        height: 50px;
+        padding-left: 15px;
+        border: 0; }
+      body #content table td {
+        border-bottom: 1px #fff solid;
+        height: 30px;
+        padding-left: 15px; }
+    body #content .clickbutton {
+      background-color: burlywood;
+      color: #fff;
+      text-decoration: none; }

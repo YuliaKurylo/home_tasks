@@ -1,0 +1,91 @@
+    $contentcolor: null !default;
+    $textcolor: null !default;
+    $bordercolor:null !default;
+    $textstyle:null !default;
+    $imageborder:null !default;
+    $imagepadding:null !default;
+    $briefwidth: null !default;
+    $briefheight: null !default;
+    $briefmargin: null !default;
+    $maintextcolor: null !default;
+    $linkcolor: null !default;
+    $tablecolor: null !default;
+    $briefcolor: null !default;
+    $bodyfont:null !default;
+    $thcolor:null !default;
+    $tbcaption:null !default;
+    $tablewidth:null !default;
+    $borderbottomcolor:null !default;
+    $thborder:null !default;
+    body {
+        background-color: $bordercolor;
+        padding: 2px 70px;
+        font: $bodyfont;
+        color: $maintextcolor;
+        h1,
+        h2 {
+            color: $textcolor;
+        }
+        a {
+            color: $linkcolor;
+        }
+        #content {
+            margin: 0 auto;
+            background-color: $contentcolor;
+            padding: 1px 50px;
+            h2 {
+                font-style: $textstyle;
+            }
+            .img-left {
+                float: left;
+                border: $imageborder;
+                margin-right: 15px;
+                padding: $imagepadding;
+            }
+            .brief {
+                background-color: $briefcolor;
+                float: left;
+                height: $briefheight;
+                width: $briefwidth;
+                font-style: italic;
+                padding: 20px;
+                font-weight: bold;
+                margin-right: 20px;
+                margin-bottom: $briefmargin;
+            }
+            .img-right {
+                margin-left: 5px;
+                border: $imageborder;
+                float: right;
+                padding: $imagepadding;
+            }
+            table {
+                width: $tablewidth;
+                background-color: $tablecolor;
+                text-align: left;
+                border-collapse: collapse;
+                caption {
+                    font-size: 18px;
+                    text-align: right;
+                    font-style: italic;
+                    margin-right: $tbcaption;
+                }
+                th {
+                    background-color: $thcolor;
+                    height: 50px;
+                    padding-left: 15px;
+                    border:$thborder;
+                }
+                td {
+                    border-bottom: $borderbottomcolor;
+                    height: 30px;
+                    padding-left: 15px;
+                }
+            }
+            .clickbutton {
+                background-color: burlywood;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
