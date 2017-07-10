@@ -1,0 +1,141 @@
+$blue: #2A74BF;
+$red: #D7514C;
+$green: #4D944B;
+$orange: #D8C11D;
+$grey: #666;
+h1,
+h2 {
+    color: $blue;
+    font-weight: bold;
+}
+.container-fluid {
+    margin-left: 5%;
+    font-weight: bold;
+}
+.page-header {
+    border-bottom: 1px $blue solid;
+    margin-left: 6%;
+    width: 85%;
+}
+.container {
+    margin-left: 6%;
+    width: 85%;
+    padding: 0;
+    .imageyoga {
+        float: left;
+    }
+    .yogatext {
+        float: left;
+        margin-left: 30px;
+    }
+    .row {
+        margin-top: 10px;
+        .col-xs-12,
+        .col-sm-12,
+        .col-md-8,
+        .col-lg-8 {
+            img {
+                width: 100%;
+            }
+        }
+        .col-xs-12,
+        col-sm-12,
+        col-md-12,
+        col-lg-4 {
+            ul {
+                list-style: disc;
+            }
+        }
+    }
+    .imageone {
+        border: 1px $red solid;
+        background-color: $red;
+        float: left;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        img {
+            width: 100%;
+        }
+    }
+    .imagetwo {
+        border: 1px $blue solid;
+        background-color: $blue;
+        float: left;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        img {
+            width: 100%;
+        }
+    }
+    .imagethree {
+        border: 1px $orange solid;
+        background-color: $orange;
+        float: left;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        img {
+            width: 100%;
+        }
+    }
+    .imagefour {
+        border: 1px $green solid;
+        background-color: $green;
+        color: #fff;
+        float: left;
+        text-align: center;
+        font-weight: bold;
+        img {
+            width: 100%;
+        }
+    }
+}
+.main-footer {
+    margin-left: 6%;
+    margin-top: 20px;
+    height: 40px;
+    width: 85%;
+    background-color: $grey;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 10px;
+    p {
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:992px) {
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid {
+        margin-left: 3%;
+        .navbar-brand {
+            margin-left: 0;
+        }
+    }
+    .container {
+        .yogatext {
+            margin-left: 0;
+        }
+        .imagethree,
+        .imagefour {
+            margin-top: 20px;
+        }
+    }
+    .main-footer {
+        p {
+            margin-left: 22px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        margin-left: 1%;
+    }
+   
+    .main-footer {
+        p {
+            margin-left: 14px;
+        }
+    }
+}

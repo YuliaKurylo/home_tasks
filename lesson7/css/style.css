@@ -1,0 +1,108 @@
+h1,
+h2 {
+  color: #2A74BF;
+  font-weight: bold; }
+
+.container-fluid {
+  margin-left: 5%;
+  font-weight: bold; }
+
+.page-header {
+  border-bottom: 1px #2A74BF solid;
+  margin-left: 6%;
+  width: 85%; }
+
+.container {
+  margin-left: 6%;
+  width: 85%;
+  padding: 0; }
+  .container .imageyoga {
+    float: left; }
+  .container .yogatext {
+    float: left;
+    margin-left: 30px; }
+  .container .row {
+    margin-top: 10px; }
+    .container .row .col-xs-12 img,
+    .container .row .col-sm-12 img,
+    .container .row .col-md-8 img,
+    .container .row .col-lg-8 img {
+      width: 100%; }
+    .container .row .col-xs-12 ul,
+    .container .row col-sm-12 ul,
+    .container .row col-md-12 ul,
+    .container .row col-lg-4 ul {
+      list-style: disc; }
+  .container .imageone {
+    border: 1px #D7514C solid;
+    background-color: #D7514C;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-weight: bold; }
+    .container .imageone img {
+      width: 100%; }
+  .container .imagetwo {
+    border: 1px #2A74BF solid;
+    background-color: #2A74BF;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-weight: bold; }
+    .container .imagetwo img {
+      width: 100%; }
+  .container .imagethree {
+    border: 1px #D8C11D solid;
+    background-color: #D8C11D;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-weight: bold; }
+    .container .imagethree img {
+      width: 100%; }
+  .container .imagefour {
+    border: 1px #4D944B solid;
+    background-color: #4D944B;
+    color: #fff;
+    float: left;
+    text-align: center;
+    font-weight: bold; }
+    .container .imagefour img {
+      width: 100%; }
+
+.main-footer {
+  margin-left: 6%;
+  margin-top: 20px;
+  height: 40px;
+  width: 85%;
+  background-color: #666;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 10px; }
+  .main-footer p {
+    margin-left: 50px; }
+
+@media screen and (max-width: 992px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid {
+    margin-left: 3%; }
+    .navbar > .container .navbar-brand .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+      margin-left: 0; }
+
+  .container .yogatext {
+    margin-left: 0; }
+  .container .imagethree,
+  .container .imagefour {
+    margin-top: 20px; }
+
+  .main-footer p {
+    margin-left: 22px; } }
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    margin-left: 1%; }
+
+  .main-footer p {
+    margin-left: 14px; } }
+
+/*# sourceMappingURL=style.css.map */
