@@ -20,7 +20,6 @@ function game() {
     while (true) {
         if (quest === true) {
             var number = generateNumber(random);
-            console.log(number);
             var insertedNumber = prompt("Введіть перше число");
             if (insertedNumber == number) {
                 prize = getPrize(max_prize, cof);
